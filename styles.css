@@ -34,3 +34,17 @@
     color: gold;
 }
 
+/* slider part media screen */
+
+@media screen and (max-width: 575px) {
+    .carousel-caption {
+      left: 5%;  
+      width: 230px;
+      padding-bottom: 50px;
+      font-size: 10px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+}
