@@ -1,3 +1,4 @@
+/* slider part */
 .c-img {
     height: 100%;
     object-fit: cover;
@@ -15,7 +16,21 @@
     text-align: center;
     bottom: initial;
 }
+
+/* popular courses part */
 .top-margin {
     margin-top: 2em;
+}
+
+/* feedback part */
+.fa-quote-right {
+    font-size: 4em;
+    margin-left: 10px;
+}
+.fa-star.filled  {
+    color: rgb(192, 149, 51);
+}
+.fa-star.empty {
+    color: gold;
 }
 
